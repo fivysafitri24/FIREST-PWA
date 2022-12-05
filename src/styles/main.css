@@ -1,0 +1,85 @@
+main {
+	width: 100%;
+	margin: 0 auto
+}
+.container {
+	margin: 2em 10%;
+	padding: 1em;
+}
+  
+.main-content__title {
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+  
+#explore-restaurant {
+	display: grid;
+	grid-row-gap: 1.5em;
+	padding-top: 1.5em;
+}
+.card {
+	width: 100%;
+	text-align: center;
+	transition: 0.3s;
+	cursor: pointer;
+	background-color: #fff;
+}
+  
+.card:hover {
+	box-shadow: 10px 10px 5px 0 #f0e3ca;
+}
+.card-a-tag {
+	text-decoration: none;
+	color: #22180c;
+}
+.card-rating {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	font-size: 15px;
+	font-weight: 400;
+	background-color: #DEA057;
+	border-radius: 8px;
+	padding: 0.4em 1.3em;
+	z-index: 1;
+}
+  .card-rating .fa {
+	font-size: smaller;
+	padding: 0.3em 0.8em 0.3em 0;
+	color: yellow;
+  }
+  
+  .img-container {
+	width: 100%;
+	position: relative;
+	max-height: 600px;
+  }
+  
+  .card-image {
+	width: 100%;
+	height: 270px;
+	object-fit: cover;
+	object-position: center;
+  }
+  
+  .card-content {
+	padding: 1.4em 2em;
+	font-size: small;
+	text-align: center;
+  }
+  
+  .card-content-title {
+	font-weight: bold;
+	padding-bottom: 0.376em;
+	color: #DEA057;
+  }
+  
+  .truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+  }
+  

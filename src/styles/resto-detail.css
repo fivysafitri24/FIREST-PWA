@@ -1,0 +1,232 @@
+.detail {
+    display: grid;
+    grid-gap: 1.545em;
+    font-size: 1em;
+    margin-top: 1em;
+  }
+  
+  .detail-img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .detail-name-address-rating {
+    display: inline-block;
+  }
+  
+  .icon-primary {
+    color: #DEA057;
+  }
+  
+  .detail h3 {
+    font-size: 1.5em;
+    padding: 1em 0 0 0;
+    background-color: var(--primary-color);
+    font-weight: bold;
+  }
+  
+  .detail-desc {
+    text-align: justify;
+    color: darkgrey;
+    margin-bottom: 0.5em;
+    font-style: italic;
+  }
+  
+  .category {
+    padding: 0.3em 1em;
+    color: #fff;
+    background-color: #DEA057;
+    margin-right: 2px;
+    border: 1px solid transparent;
+    border-radius: 0px 10px 0px 10px;
+  }
+  
+  .detail-menu h4 {
+    font-weight: bold;
+    font-size: 1.37em;
+    padding: 1em;
+    color: #DEA057;
+    background-color: #fff;
+  }
+  
+  .detail-food {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  }
+  
+  .detail-food li {
+    padding: 0.5em 0;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .detail-drink {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  }
+  
+  .detail-drink li {
+    padding: 0.5em 0;
+    display: block;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border: 0.5px solid var(--secondary-color);
+    border-width: 0 0 0.5px;
+  }
+  
+  .detail-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .detail-info li {
+    position: relative;
+    display: block;
+    padding: 0.6em;
+    color: var(--font-color);
+    text-decoration: none;
+    background-color: var(--primary-color);
+  }
+  
+  /* DETAIL REVIEW */
+  .detail-review {
+    max-width: 100%;
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  .detail-review-item {
+    color: rgb(0, 0, 0);
+    margin-bottom: 1.5em;
+    padding: 1em 1em;
+  }
+  
+  .detail-review-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1em;
+    color: #DEA057;
+    border-bottom: 1px solid #E0D8B0;
+  }
+  
+  .review-name {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .review-date {
+    font-size: 14px;
+    font-weight: lighter;
+  }
+  
+  .review-body {
+    padding: 1em;
+    text-align: left;
+  }
+  
+  .category:hover,
+  .detail-review-item:hover {
+    box-shadow: 0px 10px 13px -7px #E0D8B0,
+      5px 5px 15px 5px #E0D8B0;
+  }
+  
+  /* FORM */
+  form {
+    margin: 2em 0;
+    padding: 1.5em;
+    border: 3px #DEA057;
+    border-radius: 0 15px 0 15px;
+  }
+
+  .form-review {
+    position: relative;
+    margin-top: 5em;
+    box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    padding: 2em 2.5em;
+  }
+  
+  .form-review div {
+    margin-bottom: 1.5em;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-review label {
+    font-size: 14px;
+    margin-bottom: 0.5em;
+  }
+  
+  .form-review input {
+    padding: 0.8em;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+  }
+  
+  .form-review textarea {
+    padding: 0.8em;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+  }
+  
+  .form-review .btn-container {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .form-review .btn-review {
+    position: relative;
+    padding: 1em 1.8em;
+    background: #DEA057;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1.5em;
+    width: max-content;
+  }
+
+  .form-review .btn-review:hover{
+    background: #cf7f24;
+  }
+  
+  
+  /*LIKE*/
+  
+  .like {
+    font-size: 18px;
+    background-color: rgb(211, 35, 35);
+    color: white;
+    border: 0;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    z-index: 10;
+  }
+  
+  .like:hover {
+    background-color: rgb(129, 21, 21);
+  }
+  

@@ -1,0 +1,24 @@
+.hero {
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	width: 100%;
+	text-align: center;
+	background-position: center;
+	background-color: Black;
+}
+.inner-hero {
+	margin: 0 auto;
+	max-width: 800px
+}
+.title-hero {
+	color: #CE9461;
+	font-weight: 700;
+	font-size: 50px;
+}
+.subtitle-hero {
+	color: #E0D8B0;
+	margin-top: 10px;
+	font-size: 25px;
+	font-weight: 500;
+}
